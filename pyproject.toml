@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["store_reviews_onboarding"]
+
+[project]
+name = "StoreReviewsOnboarding"
+version = "0.1"
+requires-python = ">=3.11"
+
+[project.scripts]
+system-monitor = "store_reviews_onboarding.system_monitor:main"
+
+[tool.ruff]
+line-length = 120
