@@ -17,6 +17,7 @@ requires-python = ">=3.11"
 system-monitor = "store_reviews_onboarding.system_monitor:main"
 system-monitor-service = "store_reviews_onboarding.system_monitor_service:main"
 system-monitor-client = "store_reviews_onboarding.system_monitor_client:main"
+network-discovery = "store_reviews_onboarding.network_discovery:main"
 
 [tool.ruff]
 line-length = 120
