@@ -8,10 +8,15 @@ packages = ["store_reviews_onboarding"]
 [project]
 name = "StoreReviewsOnboarding"
 version = "0.1"
+dependencies = [
+    "requests",
+]
 requires-python = ">=3.11"
 
 [project.scripts]
 system-monitor = "store_reviews_onboarding.system_monitor:main"
+system-monitor-service = "store_reviews_onboarding.system_monitor_service:main"
+system-monitor-client = "store_reviews_onboarding.system_monitor_client:main"
 
 [tool.ruff]
 line-length = 120
